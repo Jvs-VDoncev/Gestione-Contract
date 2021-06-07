@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  DISPLAY: none;
+}
+
+.shown {
+  DISPLAY: block;
+}
+
+.titoloForm {
+  FONT-SIZE: 1.2em;
+  FONT-WEIGHT: normal;
+  text-align: center;
+  BACKGROUND-COLOR: #fff;
+  PADDING: 10px;
+  /* titolo del form di inserimento */
+}
+
+.toolbar {
+  width: 100%;
+  height: 50px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 60px 60px;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.toolbarleft {
+  display: grid;
+  grid-template-columns: 70px auto;
+  align-items: center;
+  color: #045BA8;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: #045BA8;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  justify-self: end;
+  position: relative;
+}
+
+#logo {
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.tdBox {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+.tdNotaLabel {
+  width: 175px;
+  text-align: right;
+}
+
+.treCadPro {
+  visibility: hidden;
+}
+
+.checkResult {
+  COLOR: #373B3E;
+  FONT-SIZE: 1.0em;
+  text-align: center;
+  /*  testo hover in basso su input box  */
+}
+
+/* .FormTitle {
+  margin-left: 5px;
+  vertical-align: top;
+  font-size: 26px;
+} */
+
+input[type=text] {
+  background: #FFFFFF;
+  color: #AAA;
+  border: 2px solid #B6B6B6;
+  text-align: center;
+  FONT-SIZE: 1em;
+}
+
+input[type=text]:hover {
+  color: #373B3E;
+  border: 2px solid #66CC66;
+}
+
+HTML {
+  WIDTH: 100%;
+  height: 100%;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+TABLE {
+  WIDTH: 100%;
+  border: black 0px solid;
+  margin: 0;
+  padding: 0;
+  justify-items: center;
+}
+
+td {
+  border: black 0px solid;
+  padding: 5px;
+  MARGIN: 0px;
+  width: 100%;
+}
+
+SPAN {
+  border: black 0px solid;
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  margin: 4px;
+  padding: 0;
+}
+
+/* #image {
+  MARGIN: 0px;
+  PADDING-LEFT: 175px;
+  PADDING-TOP: 70px;
+  PADDING-RIGHT: 0px;
+  PADDING-BOTTOM: 0px;
+} */
+
+/* #GesNoteLabel {
+  margin-top: 4px;
+  margin-left: 10px;
+  float: left;
+  color: rgb(255, 255, 255);
+} */
+
+#GestMag {
+  text-align: left;
+  width: 10%;
+}
+
+/* #invia {
+  float: right;
+  height: 28px;
+  width: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-image: url(images/ok.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  background-color: RGB(55, 59, 62);
+} */
+
+#reset {
+  /* button reset */
+  float: right;
+  height: 28px;
+  width: 28px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* #zero {
+  float: right;
+  height: 28px;
+  width: 28px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-image: url(images/undo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  background-color: RGB(55, 59, 62);
+} */
+
+
+
+.trNotePro {
+  width: 100%;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #66CC66;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+textarea {
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #039CC7;
+  border-radius: 4px;
+  padding: 9px;
+  color: #2b4d88;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+/* .button .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2b4d88;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  right: 30px;
+  top: 30px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.button:hover .tooltiptext {
+  visibility: visible;
+} */

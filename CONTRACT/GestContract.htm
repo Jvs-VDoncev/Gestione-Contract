@@ -1,0 +1,62 @@
+<!--pagesize:800x490-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE,CHROME=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Gestione note su articolo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="JS/jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="readform.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>
+    <form id="frmNote" name="frmNote">
+      <!-- <div class="toolbar">
+        <div id="GesNoteLabel">
+          <img alt="logo" id="logo" src="Images/3CADPRO_LOGO.png" height="34px" />
+          <span class="FormTitle">GESTIONE CONTRACT</span>
+        </div>
+        <INPUT onclick="charMutation()" id="invia" type="button" name="invia" value="" />
+        <INPUT id="zero" type="button" name="zero" value="">
+      </div> -->
+      <div class="toolbar">
+        <div class="toolbarleft">
+          <img alt="logo" id="logo" src="Images/logo.png" height="34px" />
+          <p>GESTIONE CONTRACT</p>
+        </div>
+        <button onclick="charMutation()" id="invia" class="button"  type="button" name="invia" value="" ><i class="fas fa-check"></i><span class="tooltiptext"></span></button>
+        <button id="zero" class="button"  type="button" name="zero" value=""><i class="fas fa-undo-alt"></i><span class="tooltiptext"></span></button>
+      </div>
+      <table>
+        <tr class="trNotePro" id="trDue">
+          <!-- <td class="tdNotaLabel"><span>Nota 1 </span></td> -->
+          <td class="tdNotaBox"><textarea id="nota1" class="nota" spellcheck="false" placeholder="Scrivi qui la tua nota N°1 ..."
+              onMouseOver="" onMouseOut="" onchange="" oninput="" type="text" rows="10" cols="50" name="nota1" value=""
+              maxlength="4000"></textarea></td>
+        </tr>
+        <tr class="trNotePro" id="trTre">
+          <!-- <td class="tdNotaLabel"><span>Nota 2 </span></td> -->
+          <td class="tdNotaBox"><textarea id="nota2" class="nota" spellcheck="false" placeholder="Scrivi qui la tua nota N°2 ..."
+              onMouseOver="" onMouseOut="" onchange="" oninput="" type="text" rows="10" cols="50" name="nota2" value=""
+              maxlength="4000"></textarea></td>
+        </tr>
+        <tr class="trNotePro" id="trQuattro">
+          <!-- <td class="tdNotaLabel"><span>Nota 3 </span></td> -->
+          <td class="tdNotaBox"><textarea id="nota3" class="nota" spellcheck="false" placeholder="Scrivi qui la tua nota N°3 ..."
+              onMouseOver="" onMouseOut="" onchange="" oninput="" type="text" rows="10" cols="50" name="nota3" value=""
+              maxlength="4000"></textarea></td>
+        </tr>
+      </table>
+
+    </form>
+  </div>
+</body>
+
+</html>
