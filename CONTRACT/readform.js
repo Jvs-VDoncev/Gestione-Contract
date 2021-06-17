@@ -4,13 +4,11 @@ $(document).ready(function () {
 	//console.log('reading ....');
 	var strFromRule = window.location.href;
 	var parameters = strFromRule.split('?')[1];
-	var paramSeparator = '#';
+	var paramSeparator = '~';
 	//alert(strFromRule);
 	var nota1 = '';
 	var nota2 = '';
 	var nota3 = '';
-
-
 
 	//var ecadpro=1;
 	var destinazioneNote = '';
@@ -62,7 +60,7 @@ $(document).ready(function () {
 		nota3 = $('#nota3').val();
 
 		DAUTarget = 'DAUCONFERMA:' + nota1 + paramSeparator + nota2 + paramSeparator
-			+ nota3 + paramSeparator;
+			+ nota3;
 
 
 		//alert(DAUTarget);
